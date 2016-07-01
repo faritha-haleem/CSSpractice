@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>My page</title>
+
+	    <!-- Bootstrap -->
+	    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	    <!--link href="css/bootstrap.min.css" rel="stylesheet"-->
+	    <link href="mycss.css" rel="stylesheet">
+	    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  		</head>
+  	<body>
+		<div id="nav">
+		    <div class="container-fluid">
+		      	<div class="row" >
+		        	<div class="col-md-2 col-sm-2 col-xs-2" id="nav1">
+			          	<div id="searchbar">
+			            	<div class="col-md-8 col-sm-8 col-xs-8" ><input type="text" id="search" value="Search all..." /></div>
+			            	<div class="col-md-3 col-sm-3 col-xs-3" ><p id="sid"><span class="glyphicon glyphicon-search"></span></p></div>
+			          	</div>
+		        	</div>
+		        	<div class="col-md-9 col-sm-9 col-xs-9" id="nav2">
+		          		<div class="col-md-9 col-sm-9 col-xs-9" id="title">
+		          			<p>Title</p>
+		          		</div>
+		         		<div class="col-md-1 col-sm-1 col-xs-1" id="opts1">
+		          			<a href="#"><i class="fa fa-comments-o fa1" aria-hidden="true"></i></a>
+		          		</div>
+		          		<div class="col-md-1 col-sm-1 col-xs-1" id="opts2">
+		          			<a href="#"><i class="fa fa-bell fa1" aria-hidden="true"></i></a>
+		          		</div>
+		          		<div class="col-md-1 col-sm-1 col-xs-1" id="opts3">
+		          			<a href="#"><i class="fa fa-cog fa1" aria-hidden="true"></i></a>
+		          		</div>
+		        	</div>
+		        	<div class="col-md-1 col-sm-1 col-xs-1" id="nav3">
+		        		<p id="plus"><span class="glyphicon glyphicon-plus"></span></p>
+		        	</div>
+		      	</div>
+			<div class="row">
+		      	<div class="col-md-2 col-sm-2 col-xs-2" id="body1">
+		        	<div class="row">
+			        	<p class="mainhead">MAIN</p>
+			    	</div>
+					<div class="row" id="selected">
+				    	<div class="col-md-9 col-sm-9 col-xs-9 subhead">
+				        	<a href="#"><p><i class="fa fa-user fa2" aria-hidden="true"></i>  Discover </p></a>
+				    	</div>
+					</div>
+					<div class="row">
+				    	<div class="col-md-9 col-sm-9 col-xs-9 subhead">
+				        	<a href="#"><p><i class="fa fa-calendar fa2" aria-hidden="true"></i>  Events </p></a>
+				    	</div>
+					</div>
+					<div class="row">
+				    	<div class="subhead">
+				        	<a href="#"><p><i class="fa fa-user fa2" aria-hidden="true"></i>  Friends</p></a>
+				    	</div>
+					</div>
+					<div class="row">
+				    	<div class="subhead">
+				        	<a href="#"><p><i class="fa fa-picture-o fa2" aria-hidden="true"></i>  Photos</p></a>
+				    	</div>
+					</div>
+					<div class="row">
+				    	<div class="subhead">
+				        	<a href="#"><p><i class="fa fa-video-camera fa2" aria-hidden="true"></i>  Videos</p></a>
+				    	</div>
+			    	</div>
+
+		        <div class="row">
+		        	<p class="mainhead">RECENT</p>
+		        	<div class="subhead">
+				        	<a href="#"><p><i class="fa fa-bed fa2" aria-hidden="true"></i>  Hotels</p></a>
+				    </div>
+				    <div class="subhead">
+				        	<a href="#"><p><i class="fa fa-sun-o fa2" aria-hidden="true"></i>  Vacations</p></a>
+				    </div>
+				    <div class="subhead">
+				        	<a href="#"><p><i class="fa fa-cutlery fa2" aria-hidden="true"></i>  Restaurants</p></a>
+				    </div>
+				    <div class="subhead">
+				        	<a href="#"><p><i class="fa fa-anchor fa2" aria-hidden="true"></i>  Cruises</p></a>
+				    </div>
+		        </div>
+		        <div class="row">
+			        <p class="mainhead">GROUPS</p>
+			        <div class="subhead">
+					        	<a href="#"><p><i class="fa fa-circle-o fa2" aria-hidden="true"></i>  Celebrities</p></a>
+					    </div>
+					    <div class="subhead">
+					        	<a href="#"><p><i class="fa fa-circle-o fa2" aria-hidden="true"></i>  Designers</p></a>
+					    </div>
+					    <div class="subhead">
+					        	<a href="#"><p><i class="fa fa-circle-o fa2" aria-hidden="true"></i>  Party Trips</p></a>
+					    </div>
+			        </div>
+		      	</div>
+
+		      	<!--BODY 2 declaration-->
+		      	
+		      	<ul class="col-md-8 col-sm-8 col-xs-8" id="body2">
+			      	
+								<li class="col-md-5 col-sm-5 col-xs-5 thumbnail" id="head">
+									<div id="p1">
+										<p>Write something...</p>
+									</div>
+									<div id="p2">
+										<div class="row">
+											<div class="col-md-1 col-sm-1 col-xs-1"><i class="fa fa-map-marker f7" aria-hidden="true"></i></div>
+											<div class="col-md-1 col-sm-1 col-xs-1"><i class="fa fa-picture-o f7" aria-hidden="true"></i></div>
+											<div class="col-md-1 col-sm-1 col-xs-1"> <i class="fa fa-calendar f7" aria-hidden="true"></i></div>
+											<div class="col-md-1 col-sm-1 col-xs-1"><i class="fa fa-video-camera f7" aria-hidden="true"></i></div>
+											<div class="col-md-7 col-sm-7 col-xs-7" id="send">
+											<p><a href="#" class="btn btn-default b1" role="button">SEND</a></p>
+											</div>
+										</div>
+									</div>
+								</li>
+
+								<li class="col-md-5 col-sm-5 col-xs-5 thumbnail" id="news">
+									<div class="row">
+										<div class="col-md-3 col-sm-3 col-xs-3">
+		         							<a href="#"><img src="alex.jpg" id="user1"/></a>
+										</div>
+										<div class="col-md-6 col-sm-6 col-xs-6" id="user2">
+											<p id="event">Trent Walton created an event</p>
+											<p id="place">Austin, USA</p>
+										</div>
+
+										<div class="col-md-3 col-sm-3 col-xs-3">
+											<p id="cal"><i class="fa fa-calendar fa2" aria-hidden="true"></i></p>
+											<p id="timestamp">3 hours ago</p>
+										</div>
+									</div>
+									<div class="row">
+										<p id="tit">Birthday Party on my Yacht in New York</p>
+										<p id="ts">July 10 at 10:00pm</p>
+										<p id="pl">New York, USA</p>
+										<br>
+									</div>
+									<div class="row" id="myDiv" >
+										<img src="map.jpg" id="map"/>
+									</div>
+									<div class="row">
+										<div id="userlist">
+												<img src="alex.jpg" width="55px" height="55px"/>
+												<img src="alex1.jpg" width="55px" height="55px"/>
+												<img src="alex.jpg" width="55px" height="55px"/>
+												<img src="alex1.jpg" width="55px" height="55px"/>
+												<img src="alex.jpg" width="55px" height="55px"/>
+												<a href="#" id="ulink">+26</a>
+										</div>
+									</div>
+									<div class="row" id="commentsec">
+										<div class="col-md-4 col-sm-4 col-xs-4" id="c1">
+											<p>Admire&nbsp;.&nbsp;Comment</p>
+										</div>
+										<div class="col-md-8 col-sm-8 col-xs-8" id="c2">
+											<p>633 People admire this.</p>
+										</div>
+									</div>
+									<div class="row" id="p1">
+										<p>Write a comment...</p>
+									</div>
+								</li>
+								<li class="col-md-5 col-sm-5 col-xs-5 thumbnail" id="news">
+									<div class="row">
+										<div class="col-md-3 col-sm-3 col-xs-3">
+		         							<a href="#"><img src="alex.jpg" id="user1"/></a>
+										</div>
+										<div class="col-md-6 col-sm-6 col-xs-6" id="user2">
+											<p id="event">Trent Walton created an event</p>
+											<p id="place">Austin, USA</p>
+										</div>
+
+										<div class="col-md-3 col-sm-3 col-xs-3">
+											<p id="cal"><i class="fa fa-calendar fa2" aria-hidden="true"></i></p>
+											<p id="timestamp">3 hours ago</p>
+										</div>
+									</div>
+									<div class="row">
+										<p id="tit">Birthday Party on my Yacht in New York</p>
+										<p id="ts">July 10 at 10:00pm</p>
+										<p id="pl">New York, USA</p>
+										<br>
+									</div>
+									<div class="row" id="myDiv" >
+										<img src="map.jpg" id="map"/>
+									</div>
+									<div class="row">
+										<div id="userlist">
+												<img src="alex.jpg" width="55px" height="55px"/>
+												<img src="alex1.jpg" width="55px" height="55px"/>
+												<img src="alex.jpg" width="55px" height="55px"/>
+												<img src="alex1.jpg" width="55px" height="55px"/>
+												<img src="alex.jpg" width="55px" height="55px"/>
+												<a href="#" id="ulink">+26</a>
+										</div>
+									</div>
+									<div class="row" id="commentsec">
+										<div class="col-md-4 col-sm-4 col-xs-4" id="c1">
+											<p>Admire&nbsp;.&nbsp;Comment</p>
+										</div>
+										<div class="col-md-8 col-sm-8 col-xs-8" id="c2">
+											<p>633 People admire this.</p>
+										</div>
+									</div>
+									<div class="row" id="p1">
+										<p>Write a comment...</p>
+									</div>
+								</li>
+								
+				</ul>
+		      	
+
+		      	<!--BODY 3 declaration-->
+		      	<div class="col-md-2 col-sm-2 col-xs-2" id="body3">
+		      		<div class="row " id="chatbar">
+		            	<div class="col-md-8 col-sm-8 col-xs-8" ><input type="text" id="chat" value="Chat with..." /></div>
+		            	<div class="col-md-4 col-sm-4 col-xs-4" ><p id="cid"><span class="glyphicon glyphicon-search"></span></p></div>
+		         	</div>
+		         	<div class="row" id="online">
+		         		<p>ONLINE(10)&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-circle-down" aria-hidden="true"></i></p>
+		         	</div>
+		         	<div class="row chatbox">
+		         		<div class="col-md-2 col-sm-2 col-xs-2">
+		         			<a href="#"><img src="alex.jpg" class="user"/></a>
+		         		</div>
+		         		<div class="col-md-7 col-sm-7 col-xs-7">
+				        	<p class="chatuser">Alex Pascal</p>
+				        </div>
+				        <div class="col-md-1 col-sm-1 col-xs-1">
+				        	<i class="fa fa-circle fa3" aria-hidden="true"></i>
+				        </div>
+				    </div>
+				    <div class="row chatbox">
+		         		<div class="col-md-2 col-sm-2 col-xs-2">
+		         			<a href="#"><img src="alex1.png" class="user"/></a>
+		         		</div>
+		         		<div class="col-md-7 col-sm-7 col-xs-7">
+				        	<p class="chatuser">Eric Hoffman</p>
+				        </div>
+				        <div class="col-md-1 col-sm-1 col-xs-1">
+				        	<i class="fa fa-circle fa4" aria-hidden="true"></i>
+				        </div>
+				    </div>
+				    <div class="row chatbox">
+		         		<div class="col-md-2 col-sm-2 col-xs-2">
+		         			<a href="#"><img src="alex1.jpg" class="user"/></a>
+		         		</div>
+		         		<div class="col-md-7 col-sm-7 col-xs-7">
+				        	<p class="chatuser">Charlie Waite</p>
+				        </div>
+				        <div class="col-md-1 col-sm-1 col-xs-1">
+				        	<i class="fa fa-circle fa5" aria-hidden="true"></i>
+				        </div>
+				    </div>
+				    <div class="row" id="offline">
+		         		<p>OFFLINE(20)&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-circle-down" aria-hidden="true"></i></p>
+		         	</div>
+		         	<div class="row chatbox">
+		         		<div class="col-md-2 col-sm-2 col-xs-2">
+		         			<a href="#"><img src="alex.jpg" class="user"/></a>
+		         		</div>
+		         		<div class="col-md-7 col-sm-7 col-xs-7">
+				        	<p class="chatuser">Alex Pascal</p>
+				        </div>
+				        <div class="col-md-1 col-sm-1 col-xs-1">
+				        	<i class="fa fa-circle fa6" aria-hidden="true"></i>
+				        </div>
+				    </div>
+				    <div class="row chatbox">
+		         		<div class="col-md-2 col-sm-2 col-xs-2">
+		         			<a href="#"><img src="alex1.png" class="user"/></a>
+		         		</div>
+		         		<div class="col-md-7 col-sm-7 col-xs-7">
+				        	<p class="chatuser">Eric Hoffman</p>
+				        </div>
+				        <div class="col-md-1 col-sm-1 col-xs-1">
+				        	<i class="fa fa-circle fa6" aria-hidden="true"></i>
+				        </div>
+				    </div>
+				    <div class="row chatbox">
+		         		<div class="col-md-2 col-sm-2 col-xs-2">
+		         			<a href="#"><img src="alex1.jpg" class="user"/></a>
+		         		</div>
+		         		<div class="col-md-7 col-sm-7 col-xs-7">
+				        	<p class="chatuser">Charlie Waite</p>
+				        </div>
+				        <div class="col-md-1 col-sm-1 col-xs-1">
+				        	<i class="fa fa-circle fa6" aria-hidden="true"></i>
+				        </div>
+				    </div>
+		      	</div>
+		      </div>
+		    </div> 
+		  </div>
+		    </div>
+	</body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
